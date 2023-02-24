@@ -15,7 +15,7 @@ MONTH: Month of reported power outage (set by numerical month e.g January = 1, F
 U.S._STATE: State where reported power outage is located
 
 ANOMALY.LEVEL: Oceanic El Niño/La Niña (ONI) index for cold/warm episodes by season. Estimated as running mean of 3 month ERSST.v4 SST anomalies in the Niño 3.4 region (5°N to 5°S, 120–170°W)
-	more found here - https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php
+	more found [here](https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php)
 
 CLIMATE.CATEGORY: Represents the episode of climate by year and based on thresholds for Oceanic Niño Index (ONI) ± 0.5 °C
 
@@ -34,4 +34,6 @@ OUTAGE.RESTORATION: Ending date and time of power outage
 POPULATION: Total population of state at the time of reported outage
 
 ## Exploratory Analysis
+
+test plot <iframe src="assets/plot1.html" width=800 height=600 frameBorder=0></iframe>
 
