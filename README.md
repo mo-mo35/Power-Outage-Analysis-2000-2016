@@ -70,10 +70,10 @@ in power outages than hotter weather.
 Finally, I wanted to see what the main causes of power outages were, and how they changed each year.
 This table describes the count of each category cause in each year for the entire dataset. This is the first 11 rows of the table.
 
-<details> <summary> Click here for the full dataset </summary>
+<details> 
+	<summary> Click here for the full dataset </summary>
 
-
-
+	<pre>
 |                                                                        |   Count |
 |:-----------------------------------------------------------------------|--------:|
 | (2000.0, 'equipment failure', 'failure')                               |       1 |
@@ -271,7 +271,7 @@ This table describes the count of each category cause in each year for the entir
 | (2016.0, 'system operability disruption', 'transmission interruption') |       3 |
 | (2016.0, 'system operability disruption', 'uncontrolled loss')         |       4 |
 | (2016.0, 'system operability disruption', 'voltage reduction')         |       1 |
-
+	</pre>
 
 </details>
 
