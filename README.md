@@ -279,4 +279,32 @@ This table describes the count of each category cause in each year for the entir
 ## Assessment of Missingness
 
 There were many instances of power outages having missing values in the customers affected column. This section
-attempts to address these values and find whether or not there are reasons for their missingness. 
+attempts to address these values and find whether or not there are reasons for their missingness.
+| CAUSE.CATEGORY                |   False |   True |
+|:------------------------------|--------:|-------:|
+| equipment failure             |      30 |     30 |
+| fuel supply emergency         |       7 |     44 |
+| intentional attack            |     199 |    219 |
+| islanding                     |      34 |     12 |
+| public appeal                 |      21 |     48 |
+| severe weather                |     717 |     46 |
+| system operability disruption |      83 |     44 |
+From the table grouping by categories of power outage causes, intentional attacks look like the leading factor for missing values in customers affected.
+The values may seem like they are NMAR since companies may be less likely to publish the number affected by outages caused intentionally for safety or security reasons.
+Further information would be needed on the definition of intentional attacks and whether or not "sabotage" as seen two tables ago is considered just as dangerous
+for the public as 'vandalism'. However it is important to point out that intentional attacks are not leading in proportions of non-missing to missing values. 
+In order to see if perhaps these columns are indeed Missing at Random, we'll perform 2 permutation tests.
+
+<iframe src="assets/plot-missing1.html" width=800 height=600 frameBorder=0></iframe>
+
+This is the histogram showing the probability of getting a total variation distance after shuffling the affected missing column. 
+The red line indicates the observed total variation distance from the dataset. We can say then that the missingness of values in the customers affected column may in fact depend on the cause of the power outage.
+
+<iframe src="assets/plot-missing2.html" width=800 height=600 frameBorder=0></iframe>
+
+Similarly this is the histogram for the probability of getting a total variation distance after shuffling, but based on climate conditions (cold, normal, warm). The red line indicates the observed total variation distance from the dataset.
+We can see in this graph, in contrast to the first, that it seems reasonable to assume that the missingness of customers affected is most likely not dependent on the climate category. 
+
+## Hypothesis Testing
+
+
