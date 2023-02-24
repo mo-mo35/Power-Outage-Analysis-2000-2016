@@ -72,6 +72,8 @@ This table describes the count of each category cause in each year for the entir
 
 <details> <summary> Click here for the full dataset </summary>
 
+
+
 |                                                                        |   Count |
 |:-----------------------------------------------------------------------|--------:|
 | (2000.0, 'equipment failure', 'failure')                               |       1 |
@@ -269,6 +271,8 @@ This table describes the count of each category cause in each year for the entir
 | (2016.0, 'system operability disruption', 'transmission interruption') |       3 |
 | (2016.0, 'system operability disruption', 'uncontrolled loss')         |       4 |
 | (2016.0, 'system operability disruption', 'voltage reduction')         |       1 |
+
+
 </details>
 
 
