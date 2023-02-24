@@ -73,204 +73,203 @@ This table describes the count of each category cause in each year for the entir
 <summary> Click here for the full dataset </summary>
 
 <details>
-
-	|                                                                        |   Count |
-	|:-----------------------------------------------------------------------|--------:|
-	| (2000.0, 'equipment failure', 'failure')                               |       1 |
-	| (2000.0, 'equipment failure', 'line fault')                            |       1 |
-	| (2000.0, 'equipment failure', 'relaying malfunction')                  |       2 |
-	| (2000.0, 'equipment failure', 'transformer outage')                    |       1 |
-	| (2000.0, 'intentional attack', 'vandalism')                            |       2 |
-	| (2000.0, 'severe weather', 'heavy wind')                               |       1 |
-	| (2000.0, 'severe weather', 'thunderstorm')                             |       2 |
-	| (2000.0, 'severe weather', 'tornadoes')                                |       1 |
-	| (2000.0, 'severe weather', 'wildfire')                                 |       2 |
-	| (2000.0, 'severe weather', 'winter storm')                             |       2 |
-	| (2000.0, 'system operability disruption', 'transmission interruption') |       2 |
-	| (2001.0, 'equipment failure', 'feeder shutdown')                       |       1 |
-	| (2001.0, 'severe weather', 'flooding')                                 |       1 |
-	| (2002.0, 'intentional attack', 'vandalism')                            |       1 |
-	| (2002.0, 'severe weather', 'hurricanes')                               |       1 |
-	| (2002.0, 'severe weather', 'winter storm')                             |      11 |
-	| (2003.0, 'equipment failure', 'breaker trip')                          |       2 |
-	| (2003.0, 'equipment failure', 'cables')                                |       1 |
-	| (2003.0, 'equipment failure', 'generator trip')                        |       1 |
-	| (2003.0, 'equipment failure', 'relaying malfunction')                  |       1 |
-	| (2003.0, 'equipment failure', 'transmission interruption')             |       1 |
-	| (2003.0, 'intentional attack', 'vandalism')                            |       2 |
-	| (2003.0, 'severe weather', 'earthquake')                               |       1 |
-	| (2003.0, 'severe weather', 'flooding')                                 |       1 |
-	| (2003.0, 'severe weather', 'heavy wind')                               |       8 |
-	| (2003.0, 'severe weather', 'hurricanes')                               |       5 |
-	| (2003.0, 'severe weather', 'storm')                                    |       3 |
-	| (2003.0, 'severe weather', 'thunderstorm')                             |       7 |
-	| (2003.0, 'severe weather', 'wildfire')                                 |       2 |
-	| (2003.0, 'severe weather', 'winter storm')                             |       3 |
-	| (2003.0, 'system operability disruption', 'transmission interruption') |       1 |
-	| (2004.0, 'equipment failure', 'generator trip')                        |       2 |
-	| (2004.0, 'equipment failure', 'line fault')                            |       1 |
-	| (2004.0, 'equipment failure', 'substation')                            |       1 |
-	| (2004.0, 'equipment failure', 'switching')                             |       1 |
-	| (2004.0, 'severe weather', 'heatwave')                                 |       1 |
-	| (2004.0, 'severe weather', 'heavy wind')                               |       8 |
-	| (2004.0, 'severe weather', 'hurricanes')                               |      16 |
-	| (2004.0, 'severe weather', 'storm')                                    |       1 |
-	| (2004.0, 'severe weather', 'thunderstorm')                             |      16 |
-	| (2004.0, 'severe weather', 'tornadoes')                                |       1 |
-	| (2004.0, 'severe weather', 'wildfire')                                 |       4 |
-	| (2004.0, 'severe weather', 'wind/rain')                                |       1 |
-	| (2004.0, 'severe weather', 'winter storm')                             |       7 |
-	| (2004.0, 'system operability disruption', 'transmission interruption') |       1 |
-	| (2005.0, 'equipment failure', 'plant trip')                            |       1 |
-	| (2005.0, 'equipment failure', 'transmission interruption')             |       1 |
-	| (2005.0, 'fuel supply emergency', 'Coal')                              |       1 |
-	| (2005.0, 'severe weather', 'heavy wind')                               |       1 |
-	| (2005.0, 'severe weather', 'hurricanes')                               |      11 |
-	| (2005.0, 'severe weather', 'storm')                                    |       2 |
-	| (2005.0, 'severe weather', 'thunderstorm')                             |      18 |
-	| (2005.0, 'severe weather', 'tornadoes')                                |       1 |
-	| (2005.0, 'severe weather', 'wildfire')                                 |       1 |
-	| (2005.0, 'severe weather', 'winter storm')                             |       8 |
-	| (2005.0, 'system operability disruption', 'transmission interruption') |       1 |
-	| (2006.0, 'equipment failure', 'generator trip')                        |       1 |
-	| (2006.0, 'fuel supply emergency', 'Coal')                              |       1 |
-	| (2006.0, 'severe weather', 'earthquake')                               |       2 |
-	| (2006.0, 'severe weather', 'heatwave')                                 |       4 |
-	| (2006.0, 'severe weather', 'heavy wind')                               |      12 |
-	| (2006.0, 'severe weather', 'hurricanes')                               |       3 |
-	| (2006.0, 'severe weather', 'storm')                                    |       1 |
-	| (2006.0, 'severe weather', 'thunderstorm')                             |      11 |
-	| (2006.0, 'severe weather', 'tornadoes')                                |       1 |
-	| (2006.0, 'severe weather', 'wildfire')                                 |       2 |
-	| (2006.0, 'severe weather', 'winter storm')                             |      10 |
-	| (2006.0, 'system operability disruption', 'shed load')                 |       1 |
-	| (2007.0, 'equipment failure', 'generator trip')                        |       5 |
-	| (2007.0, 'equipment failure', 'transmission trip')                     |       1 |
-	| (2007.0, 'severe weather', 'heatwave')                                 |       3 |
-	| (2007.0, 'severe weather', 'heavy wind')                               |       3 |
-	| (2007.0, 'severe weather', 'hurricanes')                               |       1 |
-	| (2007.0, 'severe weather', 'storm')                                    |       9 |
-	| (2007.0, 'severe weather', 'thunderstorm')                             |       9 |
-	| (2007.0, 'severe weather', 'wildfire')                                 |       5 |
-	| (2007.0, 'severe weather', 'winter storm')                             |       9 |
-	| (2008.0, 'equipment failure', 'breaker trip')                          |       1 |
-	| (2008.0, 'equipment failure', 'generator trip')                        |       2 |
-	| (2008.0, 'equipment failure', 'transmission trip')                     |       2 |
-	| (2008.0, 'severe weather', 'flooding')                                 |       1 |
-	| (2008.0, 'severe weather', 'heatwave')                                 |       1 |
-	| (2008.0, 'severe weather', 'heavy wind')                               |      12 |
-	| (2008.0, 'severe weather', 'hurricanes')                               |      15 |
-	| (2008.0, 'severe weather', 'lightning')                                |       1 |
-	| (2008.0, 'severe weather', 'storm')                                    |       9 |
-	| (2008.0, 'severe weather', 'thunderstorm')                             |      16 |
-	| (2008.0, 'severe weather', 'thunderstorm; islanding')                  |       1 |
-	| (2008.0, 'severe weather', 'wildfire')                                 |       5 |
-	| (2008.0, 'severe weather', 'winter storm')                             |       7 |
-	| (2008.0, 'system operability disruption', 'transmission interruption') |       1 |
-	| (2008.0, 'system operability disruption', 'uncontrolled loss')         |       1 |
-	| (2009.0, 'equipment failure', 'computer hardware')                     |       1 |
-	| (2009.0, 'equipment failure', 'generator trip')                        |       1 |
-	| (2009.0, 'equipment failure', 'substation')                            |       1 |
-	| (2009.0, 'equipment failure', 'switching')                             |       1 |
-	| (2009.0, 'equipment failure', 'transformer outage')                    |       1 |
-	| (2009.0, 'equipment failure', 'transmission')                          |       1 |
-	| (2009.0, 'equipment failure', 'transmission trip')                     |       3 |
-	| (2009.0, 'severe weather', 'heavy wind')                               |       6 |
-	| (2009.0, 'severe weather', 'storm')                                    |       6 |
-	| (2009.0, 'severe weather', 'thunderstorm')                             |      11 |
-	| (2009.0, 'severe weather', 'wind/rain')                                |       4 |
-	| (2009.0, 'severe weather', 'winter storm')                             |      14 |
-	| (2009.0, 'system operability disruption', 'HVSubstation interruption') |       1 |
-	| (2009.0, 'system operability disruption', 'transmission interruption') |       1 |
-	| (2010.0, 'equipment failure', 'breaker trip')                          |       1 |
-	| (2010.0, 'equipment failure', 'generator trip')                        |       1 |
-	| (2010.0, 'equipment failure', 'transformer outage')                    |       1 |
-	| (2010.0, 'equipment failure', 'transmission')                          |       2 |
-	| (2010.0, 'fuel supply emergency', 'Hydro')                             |       1 |
-	| (2010.0, 'severe weather', 'flooding')                                 |       1 |
-	| (2010.0, 'severe weather', 'heavy wind')                               |       4 |
-	| (2010.0, 'severe weather', 'hurricanes')                               |       1 |
-	| (2010.0, 'severe weather', 'storm')                                    |       4 |
-	| (2010.0, 'severe weather', 'thunderstorm')                             |      16 |
-	| (2010.0, 'severe weather', 'tornadoes')                                |       1 |
-	| (2010.0, 'severe weather', 'wildfire')                                 |       2 |
-	| (2010.0, 'severe weather', 'wind/rain')                                |       6 |
-	| (2010.0, 'severe weather', 'winter storm')                             |      13 |
-	| (2010.0, 'system operability disruption', 'transmission interruption') |       2 |
-	| (2011.0, 'equipment failure', 'generator trip')                        |       1 |
-	| (2011.0, 'fuel supply emergency', ' Natural Gas')                      |       1 |
-	| (2011.0, 'fuel supply emergency', 'Coal')                              |       5 |
-	| (2011.0, 'intentional attack', 'vandalism')                            |     121 |
-	| (2011.0, 'severe weather', 'earthquake')                               |       1 |
-	| (2011.0, 'severe weather', 'storm')                                    |       5 |
-	| (2011.0, 'severe weather', 'thunderstorm')                             |       7 |
-	| (2011.0, 'severe weather', 'winter')                                   |       1 |
-	| (2011.0, 'severe weather', 'winter storm')                             |       9 |
-	| (2011.0, 'system operability disruption', 'distribution interruption') |       1 |
-	| (2011.0, 'system operability disruption', 'majorsystem interruption')  |       1 |
-	| (2011.0, 'system operability disruption', 'transmission interruption') |       2 |
-	| (2012.0, 'fuel supply emergency', 'Coal')                              |       1 |
-	| (2012.0, 'fuel supply emergency', 'Hydro')                             |       3 |
-	| (2012.0, 'intentional attack', 'vandalism')                            |      79 |
-	| (2012.0, 'severe weather', 'heavy wind')                               |       1 |
-	| (2012.0, 'severe weather', 'hurricanes')                               |      21 |
-	| (2012.0, 'severe weather', 'storm')                                    |       1 |
-	| (2012.0, 'severe weather', 'thunderstorm')                             |      34 |
-	| (2012.0, 'severe weather', 'wind storm')                               |       1 |
-	| (2012.0, 'severe weather', 'wind/rain')                                |       1 |
-	| (2012.0, 'severe weather', 'winter storm')                             |       4 |
-	| (2012.0, 'system operability disruption', 'transmission interruption') |       2 |
-	| (2013.0, 'equipment failure', 'generator trip')                        |       2 |
-	| (2013.0, 'fuel supply emergency', ' Coal')                             |       2 |
-	| (2013.0, 'fuel supply emergency', ' Natural Gas')                      |       2 |
-	| (2013.0, 'fuel supply emergency', 'Hydro')                             |       1 |
-	| (2013.0, 'fuel supply emergency', 'Petroleum')                         |       1 |
-	| (2013.0, 'intentional attack', 'sabotage')                             |       4 |
-	| (2013.0, 'intentional attack', 'suspicious activity')                  |       1 |
-	| (2013.0, 'intentional attack', 'vandalism')                            |      55 |
-	| (2013.0, 'severe weather', 'fog')                                      |       1 |
-	| (2013.0, 'severe weather', 'hailstorm')                                |       3 |
-	| (2013.0, 'severe weather', 'heatwave')                                 |       1 |
-	| (2013.0, 'severe weather', 'heavy wind')                               |       2 |
-	| (2013.0, 'severe weather', 'lightning')                                |       2 |
-	| (2013.0, 'severe weather', 'snow/ice ')                                |       6 |
-	| (2013.0, 'severe weather', 'snow/ice storm')                           |       1 |
-	| (2013.0, 'severe weather', 'thunderstorm')                             |      20 |
-	| (2013.0, 'severe weather', 'tornadoes')                                |       3 |
-	| (2013.0, 'severe weather', 'uncontrolled loss')                        |       1 |
-	| (2013.0, 'severe weather', 'wind storm')                               |       3 |
-	| (2013.0, 'severe weather', 'winter storm')                             |       4 |
-	| (2013.0, 'system operability disruption', '100 MW loadshed')           |       1 |
-	| (2013.0, 'system operability disruption', 'distribution interruption') |       1 |
-	| (2013.0, 'system operability disruption', 'transmission interruption') |       1 |
-	| (2013.0, 'system operability disruption', 'uncontrolled loss')         |       1 |
-	| (2014.0, 'fuel supply emergency', ' Coal')                             |       8 |
-	| (2014.0, 'fuel supply emergency', ' Hydro')                            |       1 |
-	| (2014.0, 'fuel supply emergency', ' Natural Gas')                      |       4 |
-	| (2014.0, 'intentional attack', 'sabotage')                             |       1 |
-	| (2014.0, 'intentional attack', 'vandalism')                            |      33 |
-	| (2014.0, 'severe weather', 'heavy wind')                               |       3 |
-	| (2014.0, 'severe weather', 'snow/ice ')                                |       7 |
-	| (2014.0, 'severe weather', 'thunderstorm')                             |      10 |
-	| (2014.0, 'severe weather', 'wildfire')                                 |       3 |
-	| (2014.0, 'severe weather', 'wind')                                     |       1 |
-	| (2014.0, 'severe weather', 'wind storm')                               |       2 |
-	| (2014.0, 'severe weather', 'winter')                                   |      18 |
-	| (2015.0, 'intentional attack', 'sabotage')                             |      11 |
-	| (2015.0, 'intentional attack', 'suspicious activity')                  |       2 |
-	| (2015.0, 'intentional attack', 'vandalism')                            |      28 |
-	| (2015.0, 'severe weather', 'public appeal')                            |       1 |
-	| (2015.0, 'severe weather', 'thunderstorm')                             |       1 |
-	| (2015.0, 'severe weather', 'uncontrolled loss')                        |       1 |
-	| (2015.0, 'severe weather', 'wind')                                     |       2 |
-	| (2015.0, 'severe weather', 'winter')                                   |       4 |
-	| (2015.0, 'system operability disruption', 'uncontrolled loss')         |       6 |
-	| (2016.0, 'intentional attack', 'sabotage')                             |      16 |
-	| (2016.0, 'intentional attack', 'vandalism')                            |      14 |
-	| (2016.0, 'system operability disruption', 'public appeal')             |       1 |
-	| (2016.0, 'system operability disruption', 'transmission interruption') |       3 |
-	| (2016.0, 'system operability disruption', 'uncontrolled loss')         |       4 |
-	| (2016.0, 'system operability disruption', 'voltage reduction')         |       1 |
+|                                                                        |   Count |
+|:-----------------------------------------------------------------------|--------:|
+| (2000.0, 'equipment failure', 'failure')                               |       1 |
+| (2000.0, 'equipment failure', 'line fault')                            |       1 |
+| (2000.0, 'equipment failure', 'relaying malfunction')                  |       2 |
+| (2000.0, 'equipment failure', 'transformer outage')                    |       1 |
+| (2000.0, 'intentional attack', 'vandalism')                            |       2 |
+| (2000.0, 'severe weather', 'heavy wind')                               |       1 |
+| (2000.0, 'severe weather', 'thunderstorm')                             |       2 |
+| (2000.0, 'severe weather', 'tornadoes')                                |       1 |
+| (2000.0, 'severe weather', 'wildfire')                                 |       2 |
+| (2000.0, 'severe weather', 'winter storm')                             |       2 |
+| (2000.0, 'system operability disruption', 'transmission interruption') |       2 |
+| (2001.0, 'equipment failure', 'feeder shutdown')                       |       1 |
+| (2001.0, 'severe weather', 'flooding')                                 |       1 |
+| (2002.0, 'intentional attack', 'vandalism')                            |       1 |
+| (2002.0, 'severe weather', 'hurricanes')                               |       1 |
+| (2002.0, 'severe weather', 'winter storm')                             |      11 |
+| (2003.0, 'equipment failure', 'breaker trip')                          |       2 |
+| (2003.0, 'equipment failure', 'cables')                                |       1 |
+| (2003.0, 'equipment failure', 'generator trip')                        |       1 |
+| (2003.0, 'equipment failure', 'relaying malfunction')                  |       1 |
+| (2003.0, 'equipment failure', 'transmission interruption')             |       1 |
+| (2003.0, 'intentional attack', 'vandalism')                            |       2 |
+| (2003.0, 'severe weather', 'earthquake')                               |       1 |
+| (2003.0, 'severe weather', 'flooding')                                 |       1 |
+| (2003.0, 'severe weather', 'heavy wind')                               |       8 |
+| (2003.0, 'severe weather', 'hurricanes')                               |       5 |
+| (2003.0, 'severe weather', 'storm')                                    |       3 |
+| (2003.0, 'severe weather', 'thunderstorm')                             |       7 |
+| (2003.0, 'severe weather', 'wildfire')                                 |       2 |
+| (2003.0, 'severe weather', 'winter storm')                             |       3 |
+| (2003.0, 'system operability disruption', 'transmission interruption') |       1 |
+| (2004.0, 'equipment failure', 'generator trip')                        |       2 |
+| (2004.0, 'equipment failure', 'line fault')                            |       1 |
+| (2004.0, 'equipment failure', 'substation')                            |       1 |
+| (2004.0, 'equipment failure', 'switching')                             |       1 |
+| (2004.0, 'severe weather', 'heatwave')                                 |       1 |
+| (2004.0, 'severe weather', 'heavy wind')                               |       8 |
+| (2004.0, 'severe weather', 'hurricanes')                               |      16 |
+| (2004.0, 'severe weather', 'storm')                                    |       1 |
+| (2004.0, 'severe weather', 'thunderstorm')                             |      16 |
+| (2004.0, 'severe weather', 'tornadoes')                                |       1 |
+| (2004.0, 'severe weather', 'wildfire')                                 |       4 |
+| (2004.0, 'severe weather', 'wind/rain')                                |       1 |
+| (2004.0, 'severe weather', 'winter storm')                             |       7 |
+| (2004.0, 'system operability disruption', 'transmission interruption') |       1 |
+| (2005.0, 'equipment failure', 'plant trip')                            |       1 |
+| (2005.0, 'equipment failure', 'transmission interruption')             |       1 |
+| (2005.0, 'fuel supply emergency', 'Coal')                              |       1 |
+| (2005.0, 'severe weather', 'heavy wind')                               |       1 |
+| (2005.0, 'severe weather', 'hurricanes')                               |      11 |
+| (2005.0, 'severe weather', 'storm')                                    |       2 |
+| (2005.0, 'severe weather', 'thunderstorm')                             |      18 |
+| (2005.0, 'severe weather', 'tornadoes')                                |       1 |
+| (2005.0, 'severe weather', 'wildfire')                                 |       1 |
+| (2005.0, 'severe weather', 'winter storm')                             |       8 |
+| (2005.0, 'system operability disruption', 'transmission interruption') |       1 |
+| (2006.0, 'equipment failure', 'generator trip')                        |       1 |
+| (2006.0, 'fuel supply emergency', 'Coal')                              |       1 |
+| (2006.0, 'severe weather', 'earthquake')                               |       2 |
+| (2006.0, 'severe weather', 'heatwave')                                 |       4 |
+| (2006.0, 'severe weather', 'heavy wind')                               |      12 |
+| (2006.0, 'severe weather', 'hurricanes')                               |       3 |
+| (2006.0, 'severe weather', 'storm')                                    |       1 |
+| (2006.0, 'severe weather', 'thunderstorm')                             |      11 |
+| (2006.0, 'severe weather', 'tornadoes')                                |       1 |
+| (2006.0, 'severe weather', 'wildfire')                                 |       2 |
+| (2006.0, 'severe weather', 'winter storm')                             |      10 |
+| (2006.0, 'system operability disruption', 'shed load')                 |       1 |
+| (2007.0, 'equipment failure', 'generator trip')                        |       5 |
+| (2007.0, 'equipment failure', 'transmission trip')                     |       1 |
+| (2007.0, 'severe weather', 'heatwave')                                 |       3 |
+| (2007.0, 'severe weather', 'heavy wind')                               |       3 |
+| (2007.0, 'severe weather', 'hurricanes')                               |       1 |
+| (2007.0, 'severe weather', 'storm')                                    |       9 |
+| (2007.0, 'severe weather', 'thunderstorm')                             |       9 |
+| (2007.0, 'severe weather', 'wildfire')                                 |       5 |
+| (2007.0, 'severe weather', 'winter storm')                             |       9 |
+| (2008.0, 'equipment failure', 'breaker trip')                          |       1 |
+| (2008.0, 'equipment failure', 'generator trip')                        |       2 |
+| (2008.0, 'equipment failure', 'transmission trip')                     |       2 |
+| (2008.0, 'severe weather', 'flooding')                                 |       1 |
+| (2008.0, 'severe weather', 'heatwave')                                 |       1 |
+| (2008.0, 'severe weather', 'heavy wind')                               |      12 |
+| (2008.0, 'severe weather', 'hurricanes')                               |      15 |
+| (2008.0, 'severe weather', 'lightning')                                |       1 |
+| (2008.0, 'severe weather', 'storm')                                    |       9 |
+| (2008.0, 'severe weather', 'thunderstorm')                             |      16 |
+| (2008.0, 'severe weather', 'thunderstorm; islanding')                  |       1 |
+| (2008.0, 'severe weather', 'wildfire')                                 |       5 |
+| (2008.0, 'severe weather', 'winter storm')                             |       7 |
+| (2008.0, 'system operability disruption', 'transmission interruption') |       1 |
+| (2008.0, 'system operability disruption', 'uncontrolled loss')         |       1 |
+| (2009.0, 'equipment failure', 'computer hardware')                     |       1 |
+| (2009.0, 'equipment failure', 'generator trip')                        |       1 |
+| (2009.0, 'equipment failure', 'substation')                            |       1 |
+| (2009.0, 'equipment failure', 'switching')                             |       1 |
+| (2009.0, 'equipment failure', 'transformer outage')                    |       1 |
+| (2009.0, 'equipment failure', 'transmission')                          |       1 |
+| (2009.0, 'equipment failure', 'transmission trip')                     |       3 |
+| (2009.0, 'severe weather', 'heavy wind')                               |       6 |
+| (2009.0, 'severe weather', 'storm')                                    |       6 |
+| (2009.0, 'severe weather', 'thunderstorm')                             |      11 |
+| (2009.0, 'severe weather', 'wind/rain')                                |       4 |
+| (2009.0, 'severe weather', 'winter storm')                             |      14 |
+| (2009.0, 'system operability disruption', 'HVSubstation interruption') |       1 |
+| (2009.0, 'system operability disruption', 'transmission interruption') |       1 |
+| (2010.0, 'equipment failure', 'breaker trip')                          |       1 |
+| (2010.0, 'equipment failure', 'generator trip')                        |       1 |
+| (2010.0, 'equipment failure', 'transformer outage')                    |       1 |
+| (2010.0, 'equipment failure', 'transmission')                          |       2 |
+| (2010.0, 'fuel supply emergency', 'Hydro')                             |       1 |
+| (2010.0, 'severe weather', 'flooding')                                 |       1 |
+| (2010.0, 'severe weather', 'heavy wind')                               |       4 |
+| (2010.0, 'severe weather', 'hurricanes')                               |       1 |
+| (2010.0, 'severe weather', 'storm')                                    |       4 |
+| (2010.0, 'severe weather', 'thunderstorm')                             |      16 |
+| (2010.0, 'severe weather', 'tornadoes')                                |       1 |
+| (2010.0, 'severe weather', 'wildfire')                                 |       2 |
+| (2010.0, 'severe weather', 'wind/rain')                                |       6 |
+| (2010.0, 'severe weather', 'winter storm')                             |      13 |
+| (2010.0, 'system operability disruption', 'transmission interruption') |       2 |
+| (2011.0, 'equipment failure', 'generator trip')                        |       1 |
+| (2011.0, 'fuel supply emergency', ' Natural Gas')                      |       1 |
+| (2011.0, 'fuel supply emergency', 'Coal')                              |       5 |
+| (2011.0, 'intentional attack', 'vandalism')                            |     121 |
+| (2011.0, 'severe weather', 'earthquake')                               |       1 |
+| (2011.0, 'severe weather', 'storm')                                    |       5 |
+| (2011.0, 'severe weather', 'thunderstorm')                             |       7 |
+| (2011.0, 'severe weather', 'winter')                                   |       1 |
+| (2011.0, 'severe weather', 'winter storm')                             |       9 |
+| (2011.0, 'system operability disruption', 'distribution interruption') |       1 |
+| (2011.0, 'system operability disruption', 'majorsystem interruption')  |       1 |
+| (2011.0, 'system operability disruption', 'transmission interruption') |       2 |
+| (2012.0, 'fuel supply emergency', 'Coal')                              |       1 |
+| (2012.0, 'fuel supply emergency', 'Hydro')                             |       3 |
+| (2012.0, 'intentional attack', 'vandalism')                            |      79 |
+| (2012.0, 'severe weather', 'heavy wind')                               |       1 |
+| (2012.0, 'severe weather', 'hurricanes')                               |      21 |
+| (2012.0, 'severe weather', 'storm')                                    |       1 |
+| (2012.0, 'severe weather', 'thunderstorm')                             |      34 |
+| (2012.0, 'severe weather', 'wind storm')                               |       1 |
+| (2012.0, 'severe weather', 'wind/rain')                                |       1 |
+| (2012.0, 'severe weather', 'winter storm')                             |       4 |
+| (2012.0, 'system operability disruption', 'transmission interruption') |       2 |
+| (2013.0, 'equipment failure', 'generator trip')                        |       2 |
+| (2013.0, 'fuel supply emergency', ' Coal')                             |       2 |
+| (2013.0, 'fuel supply emergency', ' Natural Gas')                      |       2 |
+| (2013.0, 'fuel supply emergency', 'Hydro')                             |       1 |
+| (2013.0, 'fuel supply emergency', 'Petroleum')                         |       1 |
+| (2013.0, 'intentional attack', 'sabotage')                             |       4 |
+| (2013.0, 'intentional attack', 'suspicious activity')                  |       1 |
+| (2013.0, 'intentional attack', 'vandalism')                            |      55 |
+| (2013.0, 'severe weather', 'fog')                                      |       1 |
+| (2013.0, 'severe weather', 'hailstorm')                                |       3 |
+| (2013.0, 'severe weather', 'heatwave')                                 |       1 |
+| (2013.0, 'severe weather', 'heavy wind')                               |       2 |
+| (2013.0, 'severe weather', 'lightning')                                |       2 |
+| (2013.0, 'severe weather', 'snow/ice ')                                |       6 |
+| (2013.0, 'severe weather', 'snow/ice storm')                           |       1 |
+| (2013.0, 'severe weather', 'thunderstorm')                             |      20 |
+| (2013.0, 'severe weather', 'tornadoes')                                |       3 |
+| (2013.0, 'severe weather', 'uncontrolled loss')                        |       1 |
+| (2013.0, 'severe weather', 'wind storm')                               |       3 |
+| (2013.0, 'severe weather', 'winter storm')                             |       4 |
+| (2013.0, 'system operability disruption', '100 MW loadshed')           |       1 |
+| (2013.0, 'system operability disruption', 'distribution interruption') |       1 |
+| (2013.0, 'system operability disruption', 'transmission interruption') |       1 |
+| (2013.0, 'system operability disruption', 'uncontrolled loss')         |       1 |
+| (2014.0, 'fuel supply emergency', ' Coal')                             |       8 |
+| (2014.0, 'fuel supply emergency', ' Hydro')                            |       1 |
+| (2014.0, 'fuel supply emergency', ' Natural Gas')                      |       4 |
+| (2014.0, 'intentional attack', 'sabotage')                             |       1 |
+| (2014.0, 'intentional attack', 'vandalism')                            |      33 |
+| (2014.0, 'severe weather', 'heavy wind')                               |       3 |
+| (2014.0, 'severe weather', 'snow/ice ')                                |       7 |
+| (2014.0, 'severe weather', 'thunderstorm')                             |      10 |
+| (2014.0, 'severe weather', 'wildfire')                                 |       3 |
+| (2014.0, 'severe weather', 'wind')                                     |       1 |
+| (2014.0, 'severe weather', 'wind storm')                               |       2 |
+| (2014.0, 'severe weather', 'winter')                                   |      18 |
+| (2015.0, 'intentional attack', 'sabotage')                             |      11 |
+| (2015.0, 'intentional attack', 'suspicious activity')                  |       2 |
+| (2015.0, 'intentional attack', 'vandalism')                            |      28 |
+| (2015.0, 'severe weather', 'public appeal')                            |       1 |
+| (2015.0, 'severe weather', 'thunderstorm')                             |       1 |
+| (2015.0, 'severe weather', 'uncontrolled loss')                        |       1 |
+| (2015.0, 'severe weather', 'wind')                                     |       2 |
+| (2015.0, 'severe weather', 'winter')                                   |       4 |
+| (2015.0, 'system operability disruption', 'uncontrolled loss')         |       6 |
+| (2016.0, 'intentional attack', 'sabotage')                             |      16 |
+| (2016.0, 'intentional attack', 'vandalism')                            |      14 |
+| (2016.0, 'system operability disruption', 'public appeal')             |       1 |
+| (2016.0, 'system operability disruption', 'transmission interruption') |       3 |
+| (2016.0, 'system operability disruption', 'uncontrolled loss')         |       4 |
+| (2016.0, 'system operability disruption', 'voltage reduction')         |       1 |
 </details>
 
 
