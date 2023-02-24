@@ -48,11 +48,29 @@ This is also reflected by the frequency of outages per year generally on the ris
 Some outside investigation shows that 2011 was a year of extreme weather events including but not limited to: 
 [winter blizzards, wildfires, tornadoes, and Hurricane Irene.](https://emergency.cdc.gov/recentincidents/recentincidents_2011.asp)
 
-<iframe src="assets/plot2.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/scatter1.html" width=800 height=600 frameBorder=0></iframe>
 
 Additionally some more exploration into the dataset shows that cold to normal weather (anomaly levels <= 1) generally produces longer durations 
 in power outages than hotter weather.
 
+|                                                                        |   Count |
+|:-----------------------------------------------------------------------|--------:|
+| (2000.0, 'equipment failure', 'failure')                               |       1 |
+| (2000.0, 'equipment failure', 'line fault')                            |       1 |
+| (2000.0, 'equipment failure', 'relaying malfunction')                  |       2 |
+| (2000.0, 'equipment failure', 'transformer outage')                    |       1 |
+| (2000.0, 'intentional attack', 'vandalism')                            |       2 |
+| (2000.0, 'severe weather', 'heavy wind')                               |       1 |
+| (2000.0, 'severe weather', 'thunderstorm')                             |       2 |
+| (2000.0, 'severe weather', 'tornadoes')                                |       1 |
+| (2000.0, 'severe weather', 'wildfire')                                 |       2 |
+| (2000.0, 'severe weather', 'winter storm')                             |       2 |
+| (2000.0, 'system operability disruption', 'transmission interruption') |       2 |
+| (2001.0, 'equipment failure', 'feeder shutdown')                       |       1 |
+ Finally, I wanted to see what the main causes of power outages were, and how they changed each year.
+This table describes the count of each category cause in each year for the entire dataset. This is the first 12 rows of the table.
+<details>
+    <summary> Click here for the full dataset </summary>
 |                                                                        |   Count |
 |:-----------------------------------------------------------------------|--------:|
 | (2000.0, 'equipment failure', 'failure')                               |       1 |
@@ -250,8 +268,7 @@ in power outages than hotter weather.
 | (2016.0, 'system operability disruption', 'transmission interruption') |       3 |
 | (2016.0, 'system operability disruption', 'uncontrolled loss')         |       4 |
 | (2016.0, 'system operability disruption', 'voltage reduction')         |       1 |
+</details>
 
-Finally, I wanted to see what the main causes of power outages were, and how they changed each year.
-This table describes the count of each category cause in each year for the entire dataset.
 
 ## Assessment of Missingness
