@@ -280,6 +280,7 @@ This table describes the count of each category cause in each year for the entir
 
 There were many instances of power outages having missing values in the customers affected column. This section
 attempts to address these values and find whether or not there are reasons for their missingness.
+
 | CAUSE.CATEGORY                |   False |   True |
 |:------------------------------|--------:|-------:|
 | equipment failure             |      30 |     30 |
@@ -289,6 +290,7 @@ attempts to address these values and find whether or not there are reasons for t
 | public appeal                 |      21 |     48 |
 | severe weather                |     717 |     46 |
 | system operability disruption |      83 |     44 |
+
 From the table grouping by categories of power outage causes, intentional attacks look like the leading factor for missing values in customers affected.
 The values may seem like they are NMAR since companies may be less likely to publish the number affected by outages caused intentionally for safety or security reasons.
 Further information would be needed on the definition of intentional attacks and whether or not "sabotage" as seen two tables ago is considered just as dangerous
