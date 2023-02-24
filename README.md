@@ -4,7 +4,7 @@ Project for DSC80 at University of California, San Diego
 ## Introduction
 This dataset covers major power outages in the United States from 2000 to 2016. This analysis aims to answer the following question:
 
-# Does the state that one resides in affect the likelihood that they will experience a major power outage?
+### Does the state that one resides in affect the likelihood that they will experience a major power outage?
 
 The data gathered consists of 1534 outages reported (rows). Relevant columns and descriptions are below.
 
@@ -33,5 +33,5 @@ OUTAGE.RESTORATION: Ending date and time of power outage
 
 POPULATION: Total population of state at the time of reported outage
 
-# Exploratory Analysis
+## Exploratory Analysis
 
