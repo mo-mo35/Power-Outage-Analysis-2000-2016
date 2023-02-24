@@ -274,3 +274,6 @@ This table describes the count of each category cause in each year for the entir
 
 
 ## Assessment of Missingness
+
+There were many instances of power outages having missing values in the customers affected column. This section
+attempts to address these values and find whether or not there are reasons for their missingness. 
