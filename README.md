@@ -67,7 +67,7 @@ in power outages than hotter weather.
 | (2000.0, 'severe weather', 'winter storm')                             |       2 |
 | (2000.0, 'system operability disruption', 'transmission interruption') |       2 |
 
- Finally, I wanted to see what the main causes of power outages were, and how they changed each year.
+Finally, I wanted to see what the main causes of power outages were, and how they changed each year.
 This table describes the count of each category cause in each year for the entire dataset. This is the first 11 rows of the table.
 
 <details>
