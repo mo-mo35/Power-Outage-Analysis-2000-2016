@@ -294,7 +294,7 @@ attempts to address these values and find whether or not there are reasons for t
 From the table grouping by categories of power outage causes, intentional attacks look like the leading factor for missing values in customers affected.
 The values may seem like they are NMAR since companies may be less likely to publish the number affected by outages caused intentionally for safety or security reasons.
 Further information would be needed on the definition of intentional attacks and whether or not "sabotage" as seen two tables ago is considered just as dangerous
-for the public as 'vandalism'. However it is important to point out that intentional attacks are not leading in proportions of non-missing to missing values. 
+for the public as "vandalism". However it is important to point out that intentional attacks are not leading in proportions of non-missing to missing values. 
 In order to see if perhaps these columns are indeed Missing at Random, we'll perform 2 permutation tests.
 
 <iframe src="assets/plot-missing1.html" width=800 height=600 frameBorder=0></iframe>
@@ -308,5 +308,30 @@ Similarly this is the histogram for the probability of getting a total variation
 We can see in this graph, in contrast to the first, that it seems reasonable to assume that the missingness of customers affected is most likely not dependent on the climate category. 
 
 ## Hypothesis Testing
+
+In this section we'll conduct a hypothesis test in order to answer the question in our introduction. In order to do this we'll need to define our null and alternative hypotheses.
+
+### Null Hypothesis: The average proportion of people affected by power outages per state is due to random chance.
+
+### Alternative Hypothesis: The average proportion of people affected by power outages per state is related to location and not random chance
+
+For the test statistic I used, I found the average proportion of the population affected in *all* states. Additionally we'll use a significance level of 0.05.
+
+Since there were some states where they had no customers affected total but had reported outages, I conducted 2 tests. One where the missing values were replaced by 0, assuming that the cause of the outage was a specific event that didn't majorly impact the grid, and another 
+where I dropped the rows of states with missing values in order to find a more accurate average. The reason why I decided to do so will become clearer later
+
+<iframe src="assets/plot-hypotest.html" width=800 height=600 frameBorder=0></iframe>
+
+For the test where I filled values with 0, the p-value calculated was = 0.0737. Since this was really close to my significance level to reject the null hypothesis I decided to recalculate with only rows where true proportions existed.
+After re-testing, the calculated p-value comes out to 0.2007. This is much more within the distribution of the null hypothesis. In the graph above, the green represents the average in all states not including those with 0 proportions, and the orange represents the average in all states total.
+
+In both cases we fail to reject the null hypothesis, and can say that it is likely that living in certain states does not increase your likelihood of experiencing a power outage.
+
+Manually looking at the data shows that states with greater surface area and less population will have lower proportions of people affected (e.g Wyoming), and vice versa (e.g District of Columbia).
+
+
+
+
+
 
 
