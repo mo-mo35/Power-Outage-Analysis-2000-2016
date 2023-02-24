@@ -323,7 +323,7 @@ where I dropped the rows of states with missing values in order to find a more a
 <iframe src="assets/plot-hypotest.html" width=800 height=600 frameBorder=0></iframe>
 
 For the test where I filled values with 0, the p-value calculated was = 0.0737. Since this was really close to my significance level to reject the null hypothesis I decided to recalculate with only rows where true proportions existed.
-After re-testing, the calculated p-value comes out to 0.2007. This is much more within the distribution of the null hypothesis. In the graph above, the green represents the average in all states not including those with 0 proportions, and the orange represents the average in all states total.
+After re-testing, the calculated p-value comes out to 0.2007. This is much more within the distribution of the null hypothesis. In the graph above, the red represents the average in all states not including those with 0 proportions, and the orange represents the average in all states total.
 
 In both cases we fail to reject the null hypothesis, and can say that it is likely that living in certain states does not increase your likelihood of experiencing a power outage.
 
