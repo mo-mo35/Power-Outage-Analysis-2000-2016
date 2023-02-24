@@ -35,5 +35,5 @@ POPULATION: Total population of state at the time of reported outage
 
 ## Exploratory Analysis
 
-test plot <iframe src="assets/plot1.html" width=800 height=600 frameBorder=0></iframe>
+test plot <iframe src="assets/plot2.html" width=800 height=600 frameBorder=0></iframe>
 
