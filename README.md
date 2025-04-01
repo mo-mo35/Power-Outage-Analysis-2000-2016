@@ -48,10 +48,18 @@ This is also reflected by the frequency of outages per year generally on the ris
 Some outside investigation shows that 2011 was a year of extreme weather events including but not limited to: 
 [winter blizzards, wildfires, tornadoes, and Hurricane Irene.](https://emergency.cdc.gov/recentincidents/recentincidents_2011.asp)
 
+<iframe src="assets/plot3.html" width=800 height=600 frameBorder=0></iframe>
+
+In 2008, similar bouts of hurricanes and tropical storms are responsible for the higher frequency of outages, longer durations, and an increase in the number of customers affected.
+
 <iframe src="assets/scatter1.html" width=800 height=600 frameBorder=0></iframe>
 
 Additionally some more exploration into the dataset shows that cold to normal weather (anomaly levels <= 1) generally produces longer durations 
 in power outages than hotter weather.
+
+<iframe src="assets/scatter2.html" width=800 height=600 frameBorder=0></iframe>
+
+We can see that the highest number of outages are in California followed by Texas and then Washington. Factors can include extreme weather risk, differences in sources of power in electrical grids, and infrastructure vulnerability. 
 
 |                                                                        |   Count |
 |:-----------------------------------------------------------------------|--------:|
@@ -299,13 +307,17 @@ In order to see if perhaps these columns are indeed Missing at Random, we'll per
 
 <iframe src="assets/plot-missing1.html" width=800 height=600 frameBorder=0></iframe>
 
-This is the histogram showing the probability of getting a total variation distance after shuffling the affected missing column. 
-The red line indicates the observed total variation distance from the dataset. We can say then that the missingness of values in the customers affected column may in fact depend on the cause of the power outage.
+This is the histogram showing the probability of getting a total variation distance after shuffling the affected missing column. The red line indicates the observed total variation distance from the dataset. We can say then that the missingness of values in the customers affected column may not depend on the cause of the power outage.
 
 <iframe src="assets/plot-missing2.html" width=800 height=600 frameBorder=0></iframe>
 
 Similarly this is the histogram for the probability of getting a total variation distance after shuffling, but based on climate conditions (cold, normal, warm). The red line indicates the observed total variation distance from the dataset.
-We can see in this graph, in contrast to the first, that it seems reasonable to assume that the missingness of customers affected is most likely not dependent on the climate category. 
+We can see in this graph, that it seems reasonable to assume that the missingness of customers affected is most likely not dependent on the climate category. 
+
+<iframe src="assets/plot-missing3.html" width=800 height=600 frameBorder=0></iframe>
+
+Finally, in our last graph, we check for the missingness of customers affected based on the duration of outages. We check the proportion of missing values for different ranges of durations. Based on the extreme distance of the observed value, we can say that the missingness of customers affected is correlated with the changes in duration length. Looking at the table of proportions we can see that as duration of outages increase, 
+the proportion of missing number of customers affected increases. 
 
 ## Hypothesis Testing
 
@@ -322,16 +334,7 @@ where I dropped the rows of states with missing values in order to find a more a
 
 <iframe src="assets/plot-hypotest.html" width=800 height=600 frameBorder=0></iframe>
 
-For the test where I filled values with 0, the p-value calculated was = 0.0737. Since this was really close to my significance level to reject the null hypothesis I decided to recalculate with only rows where true proportions existed.
-After re-testing, the calculated p-value comes out to 0.2007. This is much more within the distribution of the null hypothesis. In the graph above, the red represents the average in all states not including those with 0 proportions, and the orange represents the average in all states total.
-
-In both cases we fail to reject the null hypothesis, and can say that it is likely that living in certain states does not increase your likelihood of experiencing a power outage.
-
-Manually looking at the data shows that states with greater surface area and less population will have lower proportions of people affected (e.g Wyoming), and vice versa (e.g District of Columbia).
-
-
-
-
-
-
+The results show a significant departure from what would be expected under random chance. When including all states, the test produced a p-value of 0.0019—far below the typical 0.05 threshold.
+Even after excluding outlier states (District of Columbia, Hawaii, Vermont, South Dakota, and Montana), the p-value only increased to 0.022, which is still statistically significant. In the accompanying histogram, the orange line indicates the observed total variation distance (TVD) across all states, while the red line represents the TVD after outlier removal. Both observed values fall well into the tail of the simulated null distribution. 
+These findings suggest that the proportion of people affected by power outages is indeed related to state-level characteristics rather than being purely random. This pattern is further supported by the data itself, as states with larger land areas and lower population densities (e.g., Wyoming) tend to have lower proportions of affected customers, compared to more densely populated areas.
 
