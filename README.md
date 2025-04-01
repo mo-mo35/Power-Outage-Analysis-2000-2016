@@ -342,6 +342,8 @@ These findings suggest that the proportion of people affected by power outages i
 
 ## Baseline Model
 In this analysis, I aimed to predict the number of customers affected by power outages using linear regression. I focused on this outcome because I believe that the number of affected customers represents the most detrimental impact of an outage. I used root mean squared error (RMSE) as my evaluation metric since it provides an interpretable measure of prediction error in the same units as the target variable. Given that many features in the dataset (such as outage duration, cause, and demand loss) are only available after an outage, I limited my models to attributes that can be known beforehand.
+
+
 My baseline model uses 5-fold cross-validation and only two features—the number of industrial customers and the number of commercial customers—to predict the number of customers affected. Since these features are quantitative and required no additional encoding, they served as a simple starting point. However, the high RMSE relative to the average number of affected customers suggested that this model was missing important predictive factors.
 
 ## Final Model
