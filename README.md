@@ -338,3 +338,27 @@ The results show a significant departure from what would be expected under rando
 Even after excluding outlier states (District of Columbia, Hawaii, Vermont, South Dakota, and Montana), the p-value only increased to 0.022, which is still statistically significant. In the accompanying histogram, the orange line indicates the observed total variation distance (TVD) across all states, while the red line represents the TVD after outlier removal. Both observed values fall well into the tail of the simulated null distribution. 
 These findings suggest that the proportion of people affected by power outages is indeed related to state-level characteristics rather than being purely random. This pattern is further supported by the data itself, as states with larger land areas and lower population densities (e.g., Wyoming) tend to have lower proportions of affected customers, compared to more densely populated areas.
 
+In this analysis, I aimed to predict the number of customers affected by power outages using linear regression. I focused on this outcome because I believe that the number of affected customers represents the most detrimental impact of an outage. I used root mean squared error (RMSE) as my evaluation metric since it provides an interpretable measure of prediction error in the same units as the target variable. Given that many features in the dataset (such as outage duration, cause, and demand loss) are only available after an outage, I limited my models to attributes that can be known beforehand.
+
+## Baseline Model
+
+My baseline model uses 5-fold cross-validation and only two features—the number of industrial customers and the number of commercial customers—to predict the number of customers affected. Since these features are quantitative and required no additional encoding, they served as a simple starting point. However, the high RMSE relative to the average number of affected customers suggested that this model was missing important predictive factors.
+
+## Final Model
+
+The final model builds on the baseline by incorporating two additional features:
+- **Climate Category:** One-hot encoded to capture potential effects of extreme weather conditions.
+- **Energy Draw:** Binarized to indicate whether the state experiences high or low energy demand, reflecting strain on the power grid.
+
+These extra features were chosen as proxies for two hypothesized drivers of power outages—extreme weather and grid strain—and are available before the outage concludes. Through manual experimentation with different feature combinations and 5-fold cross-validation, I determined that the optimal model includes all four features. This more complex model improved performance, as evidenced by lower RMSE values in both training and testing sets compared to the baseline.
+
+## Fairness Analysis
+
+To assess model fairness, I examined whether the model's prediction error differed between groups defined by residential usage. I created a binary variable—labeling instances where residential sales exceed non-residential (commercial + industrial) sales—and used RMSE to compare the two groups.
+
+- **Null Hypothesis:** The model is fair, meaning its error (RMSE) is roughly the same for both groups.
+- **Alternative Hypothesis:** The model is biased, exhibiting higher error for the group with non-residential usage dominance.
+
+I conducted a permutation test by randomly shuffling the group labels and recalculating the RMSE difference to build a null distribution of differences. The observed difference in RMSE was then compared to this distribution. With a significance level of 0.01, the resulting p-value was **0.0915**. Because this p-value exceeds the significance threshold, we fail to reject the null hypothesis. In other words, there isn’t strong evidence to suggest that the model's prediction error is significantly different between the groups.
+
+<iframe src="assets/plot_pred_hypotest.html" width=800 height=600 frameBorder=0></iframe>
