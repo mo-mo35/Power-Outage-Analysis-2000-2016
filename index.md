@@ -1,4 +1,4 @@
-Power Outage Deconstruction
+# Power Outage Deconstruction
 ## Introduction
 This dataset covers major power outages in the United States from 2000 to 2016. This analysis aims to answer the following question:
 
